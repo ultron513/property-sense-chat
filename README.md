@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# Property Sense Chat - Multi-Agent Real Estate Assistant
 
-## Project info
+Property Sense Chat is a specialized AI chatbot application designed to assist with property-related inquiries through a multi-agent approach. It provides expert assistance for property issues (with image analysis capabilities) and tenancy questions in one unified interface.
 
-**URL**: https://lovable.dev/projects/bfc53d14-5918-49f5-b2e1-0a8a7f2fb30d
+## 🏠 Features
 
-## How can I edit this code?
+### Multi-Agent Architecture
+- **Issues Detection Agent**: Analyzes property problems through text descriptions and image uploads
+- **Tenancy FAQ Agent**: Provides guidance on rental agreements, tenant rights, and landlord responsibilities
+- **Smart Router**: Automatically directs queries to the appropriate specialized agent
 
-There are several ways of editing your application.
+### Key Capabilities
+- **Image Analysis**: Upload photos of property issues for AI analysis and recommendations
+- **Specialized Knowledge**: Get expert advice on property maintenance, repairs, and legal tenancy matters
+- **Responsive Design**: Works seamlessly across desktop and mobile devices
 
-**Use Lovable**
+## 🛠️ Technology Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bfc53d14-5918-49f5-b2e1-0a8a7f2fb30d) and start prompting.
+- **Frontend**: React with TypeScript
+- **UI Components**: Tailwind CSS with shadcn/ui
+- **State Management**: React Query
+- **Routing**: React Router
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/property-sense-chat.git
 
-Follow these steps:
+# Navigate to the project directory
+cd property-sense-chat
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
+# or
+yarn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/bfc53d14-5918-49f5-b2e1-0a8a7f2fb30d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# or
+yarn dev
