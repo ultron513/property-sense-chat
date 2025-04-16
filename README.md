@@ -27,6 +27,22 @@ Property Sense Chat is a specialized AI chatbot application designed to assist w
 - Node.js (v16 or higher)
 - npm or yarn
 
+🧩 How It Works
+Asking Questions: Type your property-related question in the chat interface
+Switching Agents: Toggle between the Issues Agent and Tenancy Agent based on your needs
+Image Analysis: Upload images of property problems for visual analysis
+Getting Answers: Receive expert guidance tailored to your specific query
+🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🙏 Acknowledgments
+Built with Lovable
+Shadcn UI Components
+React and Tailwind CSS communities
+
 ### Installation
 
 ```bash
